@@ -10,4 +10,4 @@ RUN apk --no-cache add ca-certificates curl
 
 ENV POETRY_VERSION=1.1.5
 ENV POETRY_HOME=/usr/local/poetry
-RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python -
+RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
